@@ -36,26 +36,27 @@ html {
 }
 
 html {
-  width: 100%;
-  height: 100%;
-  perspective: 900;
-  overflow-y: scroll;
-  background-color: $light-green;
-  font-family: $lato;
+    width: 100%;
+    height: 100%;
+    perspective: 900;
+    overflow-y: scroll;
+    background-color: $light-green;
+    font-family: $lato;
     color: $dark-grey;
 }
 
 body {
-  min-height: 0;
-  display: inline-block;
-  position: relative;
-  left: 50%;
-  margin: 90px 0;
-  transform: translate(-50%, 0);
-  box-shadow: 0 20px 0 0 $green inset;
-  background-color: $white;
-  max-width: 450px;
-  padding: 30px;
+    min-height: 0;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    margin: 90px 0;
+    transform: translate(-50%, 0);
+    border-top: 30px solid $green;
+    border-bottom: 10px solid $green;
+    background-color: $white;
+    max-width: 75%;
+    padding: 30px;
 
     @media (max-width: 550px) {
         box-sizing: border-box;
@@ -68,7 +69,7 @@ body {
 } //body
 
 h1, h2 {
-  color: $green;
+    color: $green;
 }
 
 h1 {
