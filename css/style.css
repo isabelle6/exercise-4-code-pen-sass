@@ -75,14 +75,16 @@ body {
 }
 
 @media (max-width: 550px) {
-  box-sizing: border-box;
-  -webkit-transform: translate(0, 0);
-      -ms-transform: translate(0, 0);
-          transform: translate(0, 0);
-  max-width: 100%;
-  min-height: 100%;
-  margin: 0;
-  left: 0;
+  body {
+    box-sizing: border-box;
+    -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+            transform: translate(0, 0);
+    max-width: 100%;
+    min-height: 100%;
+    margin: 0;
+    left: 0;
+  }
 }
 
 h1, h2 {

@@ -56,15 +56,16 @@ body {
   background-color: $white;
   max-width: 450px;
   padding: 30px;
-}
-@media (max-width: 550px) {
-    box-sizing: border-box;
-    transform: translate(0, 0);
-    max-width: 100%;
-    min-height: 100%;
-    margin: 0;
-    left: 0;
-}
+
+    @media (max-width: 550px) {
+        box-sizing: border-box;
+        transform: translate(0, 0);
+        max-width: 100%;
+        min-height: 100%;
+        margin: 0;
+        left: 0;
+    }
+} //body
 
 h1, h2 {
   color: $green;
